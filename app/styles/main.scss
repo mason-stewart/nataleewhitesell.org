@@ -1,0 +1,49 @@
+$open-sans: 'Open Sans', sans-serif;
+$red-text: rgb(231, 88, 65);
+$white-text: rgb(254, 247, 246);
+
+body {
+    margin: 0;
+    background: url('/images/natalee-bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wrapper {
+    max-width: 530px;
+    margin: 215px 50px 0 40%;
+
+    h1 {
+        font-size: 62px;
+        margin-bottom: 0;
+    }
+
+    .titles {
+        color: $red-text;
+        font-size: 18px;
+        margin: -5px 0 20px 0;
+    }
+
+    .bio {
+        font-family: $open-sans;
+        line-height: 24px;
+    }
+
+    .button {
+        display: inline-block;
+        color: $white-text;
+        padding: 8px 14px;
+        background: $red-text;
+        border-radius: 4px;
+        margin-right: 5px;
+        text-decoration: none;
+    }
+
+    a {
+        font-size: 13.5px;
+        color: $red-text;
+        font-family: $open-sans;
+    }
+}
